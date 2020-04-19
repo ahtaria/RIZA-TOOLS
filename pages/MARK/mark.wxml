@@ -1,0 +1,17 @@
+<!--mark.wxml-->
+<view>
+    <view class="table">
+      <view class="tr">
+        <view class="th">{{mark}}</view>
+      </view>
+      <view class="tr">
+        <view class="th">{{telno}}</view>
+      </view>
+      <view wx:for="{{listData}}">
+        <view class="tr">
+          <view class="td">{{item.text}}</view>
+          <view class="td">{{item.type}}</view>
+        </view>
+      </view>
+    </view>
+</view>

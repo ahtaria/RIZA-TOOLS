@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/MARK/mark_input",
+    "pages/index/index",
+    "pages/MARK/mark"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "里扎进出口有限公司",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap2.json"
+}

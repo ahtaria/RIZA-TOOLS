@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view>
+    <view class="table">
+      <view class="tr bg-w">
+        <view class="th">{{mark}}</view>
+       </view>
+       <view class="tr bg-w">
+        <view class="th">{{telno}}</view>
+      </view>
+      <block wx:for="{{listData}}" wx:key="{{code}}">
+        <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+          <view class="td">{{item.text}}</view>
+          <view class="td">{{item.type}}</view>
+        </view>
+        <view class="tr" wx:else>
+          <view class="td">{{item.text}}</view>
+          <view class="td">{{item.type}}</view>
+        </view>
+      </block>
+    </view>
+</view>
